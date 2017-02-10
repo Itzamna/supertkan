@@ -13,6 +13,7 @@
 
             <div class="logo">Поле тканей
               <a href="index.html"><img id="logo" src="../public/template/images/33.png" alt="хлопчатобумажные ткани"></a>
+              <span class="phone-firm">т. +7-945-656-76-56</span>
             </div>  
             </div>                          
           </div>
@@ -35,13 +36,17 @@
 						<div class="row">
 
 							<!-- sidebar start -->
+              
                  {% include menu.html %}
 
 							<!-- sidebar end -->
 
 							<!-- main content start -->
-							<section class="main-content col-md-8 col-md-offset-1">             
+							<section class="main-content col-md-8 col-md-offset-1">           
+              <h1>{{ page.title }}</h1>
+                
                {{ content }}
+               <br><br>
 							</section>
 							<!-- main content end -->
 

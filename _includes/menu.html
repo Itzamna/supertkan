@@ -1,43 +1,44 @@
 <aside class="sidebar col-md-3">
+
   <div class="block clearfix">
-    <h3>Меню</h3>
+   <h3>Информация</h3>
     <nav>
       <ul class="nav nav-pills nav-stacked ">
         <li {% if page.menu == 'index' %} class='active' {% endif %} >
           <a href="index.html">Главная</a>
         </li>
         <li {% if page.menu == 'company' %} class='active' {% endif %} >
-          <a href="company.html">О компании</a>
-        </li>
-        <li class="divider-nav"></li>
-       <li class="dropdown-header">Каталог</li>
-        <li {% if page.menu == 'company' %} class='active' {% endif %} >
-          <a href="company.html">Хлопчатобумажные ткани</a>
-        </li>
-        <li {% if page.menu == 'company' %} class='active' {% endif %} >
-          <a href="company.html">Фильтровальные ткани</a>
-        </li>        
-        <li {% if page.menu == 'company' %} class='active' {% endif %} >
-          <a href="company.html">Стеклоткани</a>
-        </li> 
-        <li {% if page.menu == 'company' %} class='active' {% endif %} >
-          <a href="company.html">Полиамидные ткани</a>
-        </li> 
-        <li {% if page.menu == 'company' %} class='active' {% endif %} >
-          <a href="company.html">Нетканые полотна</a>
-        </li>   
-        <li {% if page.menu == 'company' %} class='active' {% endif %} >
-          <a href="company.html">Ветошь</a>
-        </li>         
-        <li class="divider-nav"></li>        
- 
-        <li {% if page.menu == 'dostavka' %} class='active' {% endif %} >
-          <a href="dostavka.html">Доставка</a>
+          <a href="company.html">О нас</a>
         </li>
         <li {% if page.menu == 'contacts' %} class='active' {% endif %} >
           <a href="contacts.html">Контакты</a>
-        </li>
+        </li>        
     </ul>
   </nav>
 </div>
+  <div class="block clearfix">
+    <h3>Каталог</h3>
+    <nav>
+      <ul class="nav nav-pills nav-stacked ">
+        <li {% if page.menu == 'hbtkani' %} class='active' {% endif %} >
+          <a href="khlopchatobumagnue-tkani.html">Хлопчатобумажные ткани</a>
+        </li>
+        <li {% if page.menu == 'filter' %} class='active' {% endif %} >
+          <a href="filtrovalnue-tkani.html">Фильтровальные ткани</a>
+        </li>        
+        <li {% if page.menu == 'steklotkani' %} class='active' {% endif %} >
+          <a href="steklotkani.html">Стеклоткани</a>
+        </li> 
+        <li {% if page.menu == 'poliamid' %} class='active' {% endif %} >
+          <a href="poliamidnue-tkani.html">Другие технические ткани</a>
+        </li> 
+        <li {% if page.menu == 'netkanue' %} class='active' {% endif %} >
+          <a href="netkanue-polotna.html">Нетканые полотна</a>
+        </li>   
+        <li {% if page.menu == 'vetosh' %} class='active' {% endif %} >
+          <a href="vetosh.html">Ветошь</a>
+        </li>        
+    </ul>
+  </nav>    
+</div>    
 </aside>

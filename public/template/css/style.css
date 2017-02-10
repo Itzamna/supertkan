@@ -51,7 +51,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	color: #79591f;
 }
 h1 {
-	font-size: 48px;
+	font-size: 38px;
 	font-weight: 700;
 }
 h2 {
@@ -2120,6 +2120,7 @@ form {
 	   -moz-box-shadow: none;
 		 -o-box-shadow: none;
 			box-shadow: none;
+  margin-bottom: 30px;
 }
 .flexslider .slides > li {
 	position: relative;
@@ -2217,6 +2218,20 @@ form {
 	background: #262626;
 }
 
+.phone-firm{
+  font-size: 30px;
+  color: #fdf9ed !important;
+  
+}
+img.profile-img{
+  padding: 5px;
+  border: 2px solid #e49910;
+}
+
+.well {
+ background-color: #fffffd; 
+  
+}
 /* Direction nav
 ----------------------------------*/
 .flex-direction-nav a {

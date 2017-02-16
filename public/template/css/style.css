@@ -2360,7 +2360,7 @@ img.profile-img{
 	font-weight: 700;
 	letter-spacing: 0.06em;
 	display: inline-block;
-	margin: 0 auto;
+	margin: 20px auto;
   color:#fdf9ed;
    text-shadow: 1px 1px #79591f, 1px -1px #79591f, -1px 1px #79591f, -1px -1px #79591f, 3px 3px 6px rgba(0,0,0,.5);
 }
@@ -2370,7 +2370,7 @@ img.profile-img{
 .logo img{
   display: block;
   position: absolute;
-  top: 0px;
+  top: 20px;
   margin-left: 300px;
   z-index: -1;
   
